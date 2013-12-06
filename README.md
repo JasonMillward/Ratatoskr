@@ -1,5 +1,5 @@
-Ghost theme: Nyx
-================
+Ghost theme: Ratatoskr
+======================
 
 ![Mockup](http://jcode.me/content/images/2013/Dec/ratatoskr_mockup.png)
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/db0dedae17f18f7e6502fd7f43bd8dbe "githalytics.com")](http://githalytics.com/JasonMillward/Ratatoskr)

@@ -14,18 +14,17 @@
 <main class="content individual" role="main">
 
     <article class="{{post_class}}">
-        {{! Everything inside the #post tags pulls data from the post }}
+        
         {{#post}}
 
         <section class="post-back">
             <p>
                 <a href="{{@blog.url}}">
-                    &#12298; View All Press Releases
+                    &#12298; View All Posts
                 </a>
             </p>
         </section>
 
-        {{! Everything below outputs content of the the post which has been published }}
         <span class="post-meta">
             <h1 class="post-title">{{{title}}}</h1>
             <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>

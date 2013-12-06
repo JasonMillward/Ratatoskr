@@ -570,6 +570,12 @@ table.plain {
     padding: 60px 0;
 }
 
+.post-content {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #777;
+}
+
 /* Keep large images within the bounds of the post-width */
 .post-content img {
     display: block;
@@ -592,13 +598,17 @@ table.plain {
 
 .post-footer p {
     margin: 1rem 0;
-    font-size: 1.4rem;
-    line-height: 1.6em;
+    font-size: 1.1rem;
+    line-height: 1.3em;
 }
 
 /* Create some space to the right for the share links */
 .post-footer .author {
     margin-right: 180px;
+}
+
+.post-footer .author p {
+    white-space: pre;
 }
 
 /* Drop the share links in the space to the right.

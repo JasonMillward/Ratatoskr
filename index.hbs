@@ -12,21 +12,22 @@
 </header>
 
 
-<main class="content" role="main">
+<main class="content index" role="main">
 
 
     {{#foreach posts}}
 
     <article class="{{post_class}}">
         <header class="post-header">
+            <span class="post-meta">
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
+            </span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time></span>
         </header>
-        <section class="post-excerpt">
-            <p>{{excerpt words="10"}}</p>
-        </section>
         <section class="post-readmore">
-            <p>Read more</p>
+            <p>
+                <a href="{{url}}">Read more</a>
+            </p>
         </section>
     </article>
 
